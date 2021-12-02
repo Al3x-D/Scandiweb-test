@@ -11,9 +11,8 @@ function showCurrencySimbol(index) {
         case 'RUB':
       return (<span>&#8381;</span>);
     default:  // do nothing
-       
+    
   }
- 
-}
+ }
 
 export default showCurrencySimbol
