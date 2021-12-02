@@ -6,7 +6,7 @@ function createLinksList() {
   return this.context.categoriesList && this.context.categoriesList.map(item =>
     <li
       onClick={() => markActive(item.category)}
-      className={(category === item.category || category === '' && savedCategory === item.category) ? styles.active : styles.menuItem}
+      className={((category === item.category || category === '' )&& savedCategory === item.category) ? styles.active : styles.menuItem}
       key={item.category}
     >
       <NavLink

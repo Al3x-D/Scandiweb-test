@@ -4,10 +4,7 @@ import CartProductImage from './CartProductImage';
 import CartProductInf from './CartProductInf';
 
 class CartProduct extends React.PureComponent {
-  constructor(props) {
-    super(props);
-  }
-
+  
   render() {
     const { id, name, setCurrentProduct, setMiniCartProductChanged } = this.props
     return (

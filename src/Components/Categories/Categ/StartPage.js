@@ -1,10 +1,7 @@
 import React from 'react';
 import Categ from './Categ';
 class StartPage extends React.PureComponent { 
-    constructor(props) { 
-      super(props);  
-    }
-          
+         
     componentDidMount() {
       this.props.changeStartPage('no')
     }

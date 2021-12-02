@@ -6,10 +6,7 @@ import linkOff from './NavUtils/LinkOff';
 import creatCurrencyButtons from './NavUtils/CreatCurrencyButtons';
 import showCurrencySimbol from './NavUtils/ShowCurrencySimbol';
 class NavCarrencyAndCart extends React.PureComponent {
-  constructor(props) {
-    super(props);
-  }
-
+ 
   linkOff = (event) => linkOff.call(this, event)
 
   showCurrencySimbol = (index) => showCurrencySimbol.call(this, index)

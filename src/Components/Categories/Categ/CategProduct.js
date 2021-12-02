@@ -7,9 +7,7 @@ import creatAttributeOrdersList from '../../../Utils/CreatAttributeOrdersList';
 import creatAttributeNameList from '../../../Utils/CreatAttributeNameList';
 
 class CategProduct extends React.PureComponent {
-  constructor(props) {
-    super(props);
-  }
+  
   signIn = () => signIn.call(this)
 
   creatAttributeNameList = (arg) => creatAttributeNameList.call(this, arg)
